@@ -1,0 +1,9 @@
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\bin\Debug\BigGame - WarpedCity.exe.config
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\bin\Debug\BigGame - WarpedCity.exe
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\bin\Debug\BigGame - WarpedCity.pdb
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\obj\Debug\BigGame - WarpedCity.csprojAssemblyReference.cache
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\obj\Debug\BigGame___WarpedCity.Properties.Resources.resources
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\obj\Debug\BigGame - WarpedCity.csproj.GenerateResource.cache
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\obj\Debug\BigGame - WarpedCity.csproj.CoreCompileInputs.cache
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\obj\Debug\BigGame - WarpedCity.exe
+C:\Users\youss\Desktop\UNIVERSITY SHIT\YEAR 2\SEMESTER 2\CS232 - Multi-Media Programming\Projects\BigGame - WarpedCity\obj\Debug\BigGame - WarpedCity.pdb

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF23A55D-EC49-43B9-B46D-956E9B4EA405}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BigGame___WarpedCity</RootNamespace>
+    <AssemblyName>BigGame - WarpedCity</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\BackgroundMap\bg-1.png" />
+    <Content Include="Assets\BackgroundMap\bg-2.png" />
+    <Content Include="Assets\BackgroundMap\bg-3.png" />
+    <Content Include="Assets\BackgroundMap\buildings-bg.png" />
+    <Content Include="Assets\BackgroundMap\near-buildings-bg.png" />
+    <Content Include="Assets\BackgroundMap\skyline-a.png" />
+    <Content Include="Assets\BackgroundMap\skyline-b.png" />
+    <Content Include="Assets\BackgroundMap\vehicles\v-police.png" />
+    <Content Include="Assets\BackgroundMap\vehicles\v-red.png" />
+    <Content Include="Assets\BackgroundMap\vehicles\v-truck.png" />
+    <Content Include="Assets\BackgroundMap\vehicles\v-yellow.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-1.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-2.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-3.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-4.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-5.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-6.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-7.png" />
+    <Content Include="Assets\Character\back-jump\back-jump-preview.gif" />
+    <Content Include="Assets\Character\climb\climb-1.png" />
+    <Content Include="Assets\Character\climb\climb-2.png" />
+    <Content Include="Assets\Character\climb\climb-3.png" />
+    <Content Include="Assets\Character\climb\climb-4.png" />
+    <Content Include="Assets\Character\climb\climb-5.png" />
+    <Content Include="Assets\Character\climb\climb-6.png" />
+    <Content Include="Assets\Character\climb\climb-preview.gif" />
+    <Content Include="Assets\Character\crouch\crouch.png" />
+    <Content Include="Assets\Character\hurt\hurt.png" />
+    <Content Include="Assets\Character\idle\idle-1.png" />
+    <Content Include="Assets\Character\idle\idle-2.png" />
+    <Content Include="Assets\Character\idle\idle-3.png" />
+    <Content Include="Assets\Character\idle\idle-4.png" />
+    <Content Include="Assets\Character\idle\idle-peview.gif" />
+    <Content Include="Assets\Character\jump\jump-1.png" />
+    <Content Include="Assets\Character\jump\jump-2.png" />
+    <Content Include="Assets\Character\jump\jump-3.png" />
+    <Content Include="Assets\Character\jump\jump-4.png" />
+    <Content Include="Assets\Character\jump\jump-preview.gif" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-1.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-2.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-3.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-4.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-5.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-6.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-7.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-8.png" />
+    <Content Include="Assets\Character\run-shoot\run-shoot-preview.gif" />
+    <Content Include="Assets\Character\run\run-1.png" />
+    <Content Include="Assets\Character\run\run-2.png" />
+    <Content Include="Assets\Character\run\run-3.png" />
+    <Content Include="Assets\Character\run\run-4.png" />
+    <Content Include="Assets\Character\run\run-5.png" />
+    <Content Include="Assets\Character\run\run-6.png" />
+    <Content Include="Assets\Character\run\run-7.png" />
+    <Content Include="Assets\Character\run\run-8.png" />
+    <Content Include="Assets\Character\run\run-preview.gif" />
+    <Content Include="Assets\Character\shoot\shoot.png" />
+    <Content Include="Assets\Character\walk\walk-1.png" />
+    <Content Include="Assets\Character\walk\walk-10.png" />
+    <Content Include="Assets\Character\walk\walk-11.png" />
+    <Content Include="Assets\Character\walk\walk-12.png" />
+    <Content Include="Assets\Character\walk\walk-13.png" />
+    <Content Include="Assets\Character\walk\walk-14.png" />
+    <Content Include="Assets\Character\walk\walk-15.png" />
+    <Content Include="Assets\Character\walk\walk-16.png" />
+    <Content Include="Assets\Character\walk\walk-2.png" />
+    <Content Include="Assets\Character\walk\walk-3.png" />
+    <Content Include="Assets\Character\walk\walk-4.png" />
+    <Content Include="Assets\Character\walk\walk-5.png" />
+    <Content Include="Assets\Character\walk\walk-6.png" />
+    <Content Include="Assets\Character\walk\walk-7.png" />
+    <Content Include="Assets\Character\walk\walk-8.png" />
+    <Content Include="Assets\Character\walk\walk-9.png" />
+    <Content Include="Assets\Character\walk\walk-preview.gif" />
+    <Content Include="Assets\Enemy_Actions\drone\drone-1.png" />
+    <Content Include="Assets\Enemy_Actions\drone\drone-2.png" />
+    <Content Include="Assets\Enemy_Actions\drone\drone-3.png" />
+    <Content Include="Assets\Enemy_Actions\drone\drone-4.png" />
+    <Content Include="Assets\Enemy_Actions\drone\drone_preview.gif" />
+    <Content Include="Assets\Enemy_Actions\enemy-explosion\enemy-explosion-1.png" />
+    <Content Include="Assets\Enemy_Actions\enemy-explosion\enemy-explosion-2.png" />
+    <Content Include="Assets\Enemy_Actions\enemy-explosion\enemy-explosion-3.png" />
+    <Content Include="Assets\Enemy_Actions\enemy-explosion\enemy-explosion-4.png" />
+    <Content Include="Assets\Enemy_Actions\enemy-explosion\enemy-explosion-5.png" />
+    <Content Include="Assets\Enemy_Actions\enemy-explosion\enemy-explosion-6.png" />
+    <Content Include="Assets\Enemy_Actions\enemy-explosion\enemy-explosion-preview.gif" />
+    <Content Include="Assets\Enemy_Actions\shot-hit\shot-hit-1.png" />
+    <Content Include="Assets\Enemy_Actions\shot-hit\shot-hit-2.png" />
+    <Content Include="Assets\Enemy_Actions\shot-hit\shot-hit-3.png" />
+    <Content Include="Assets\Enemy_Actions\shot-hit\shot-hit-preview.gif" />
+    <Content Include="Assets\Enemy_Actions\shot\shot-1.png" />
+    <Content Include="Assets\Enemy_Actions\shot\shot-2.png" />
+    <Content Include="Assets\Enemy_Actions\shot\shot-3.png" />
+    <Content Include="Assets\Enemy_Actions\shot\shot-preview.gif" />
+    <Content Include="Assets\Enemy_Actions\turret\turret-1.png" />
+    <Content Include="Assets\Enemy_Actions\turret\turret-2.png" />
+    <Content Include="Assets\Enemy_Actions\turret\turret-3.png" />
+    <Content Include="Assets\Enemy_Actions\turret\turret-4.png" />
+    <Content Include="Assets\Enemy_Actions\turret\turret-5.png" />
+    <Content Include="Assets\Enemy_Actions\turret\turret-6.png" />
+    <Content Include="Assets\Enemy_Actions\turret\turret-preview.gif" />
+    <Content Include="Assets\Obstacles\Banners\antenna.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-arrow.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-big\banner-big-1.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-big\banner-big-2.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-big\banner-big-3.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-big\banner-big-4.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-big\banner-big-preview.gif" />
+    <Content Include="Assets\Obstacles\Banners\banner-coke\banner-coke-1.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-coke\banner-coke-2.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-coke\banner-coke-3.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-coke\banner-coke-preview.gif" />
+    <Content Include="Assets\Obstacles\Banners\banner-floor.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-neon\banner-neon-1.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-neon\banner-neon-2.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-neon\banner-neon-3.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-neon\banner-neon-4.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-neon\banner-neon-preview.gif" />
+    <Content Include="Assets\Obstacles\Banners\banner-open.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-scroll\banner-scroll-1.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-scroll\banner-scroll-2.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-scroll\banner-scroll-3.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-scroll\banner-scroll-4.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-scroll\banner-scroll-preview.gif" />
+    <Content Include="Assets\Obstacles\Banners\banner-side\banner-side-1.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-side\banner-side-2.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-side\banner-side-3.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-side\banner-side-4.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-side\banner-side-preview.gif" />
+    <Content Include="Assets\Obstacles\Banners\banner-small.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-sushi\banner-sushi-1.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-sushi\banner-sushi-2.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-sushi\banner-sushi-3.png" />
+    <Content Include="Assets\Obstacles\Banners\banner-sushi\banner-sushi-preview.gif" />
+    <Content Include="Assets\Obstacles\Banners\banners.png" />
+    <Content Include="Assets\Obstacles\Banners\hotel-sign.png" />
+    <Content Include="Assets\Obstacles\Banners\monitorface\monitor-face-1.png" />
+    <Content Include="Assets\Obstacles\Banners\monitorface\monitor-face-2.png" />
+    <Content Include="Assets\Obstacles\Banners\monitorface\monitor-face-3.png" />
+    <Content Include="Assets\Obstacles\Banners\monitorface\monitor-face-4.png" />
+    <Content Include="Assets\Obstacles\Banners\monitorface\monitorface_preview.gif" />
+    <Content Include="Assets\Obstacles\Buildings\Building-1.png" />
+    <Content Include="Assets\Obstacles\Buildings\Building-2.png" />
+    <Content Include="Assets\Obstacles\Buildings\Building-3.png" />
+    <Content Include="Assets\Obstacles\Buildings\Building-4.png" />
+    <Content Include="Assets\Obstacles\Buildings\Building-5.png" />
+    <Content Include="Assets\Obstacles\Buildings\Building-6.png" />
+    <Content Include="Assets\Obstacles\OtherElements\control-box-1.png" />
+    <Content Include="Assets\Obstacles\OtherElements\control-box-2.png" />
+    <Content Include="Assets\Obstacles\OtherElements\control-box-3.png" />
+    <Content Include="Assets\Sounds\beam.ogg" />
+    <Content Include="Assets\Sounds\explosion.ogg" />
+    <Content Include="Assets\Sounds\hurt.ogg" />
+    <Content Include="Assets\Sounds\hurt.wav" />
+    <Content Include="Assets\Sounds\sci_fi_platformer02.ogg" />
+    <Content Include="Assets\StartScreen\instructions.png" />
+    <Content Include="Assets\StartScreen\press-enter-text.png" />
+    <Content Include="Assets\StartScreen\title-screen.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
